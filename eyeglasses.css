@@ -1,0 +1,142 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.fnav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.fnav input {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid grey;
+    margin-top: 16px;
+}
+
+.fnav p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.snav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(216, 214, 214);
+    text-decoration: none;
+    position: fixed;
+    top: 0; 
+    width:100%;
+}
+
+.snav a:hover {
+    border-bottom: 2px solid rgb(13, 13, 46);
+    color: rgb(13, 13, 46);
+    cursor: pointer;
+}
+
+.snav img {
+    width: 100px;
+    height: 40px;
+}
+
+.mainimgg img {
+    width: 100%;
+}
+
+.para .text {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    font-size: 26px;
+    font-family: futurastd-book, futurastd-medium;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.icons{
+    color:rgb(204, 204, 2);
+    size:15px;
+}
+
+.offspects {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.bestspects {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.newspects {
+    display: flex;
+    justify-content: center;    
+    justify-items: center;
+     justify-content: space-around;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #1b1616;
+    text-align: center;
+    cursor: pointer;
+    width: 70%;
+        margin-bottom: 10px;
+        border-radius: 15px;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .card img{
+transition: 0.5s ease;
+width:200px;
+height: 180px;
+  }
+  
+  .card img:hover {
+    transform: scale(1.1);
+  }
+
+.footerP {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(4, 4, 71);
+    color: white;
+    padding: 35px;
+
+}
+
+.footerP .list ul {
+    list-style: none;
+}
